@@ -20,6 +20,8 @@ docker run user-mysql
 
 NOTE : If you want you can directly get the jar file in this repository and run with your container
 
+* To get the container IP - docker inspect -f '{{range .NetworkSettings.Networks}}{{.IPAddress}}{{end}}' <container-name or id>
+
 # Useful Docker commands
 
 - docker images
