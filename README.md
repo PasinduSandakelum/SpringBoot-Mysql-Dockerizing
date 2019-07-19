@@ -22,8 +22,8 @@ NOTE : If you want you can directly get the jar file in this repository and run 
 
 # Useful Docker commands
 
-docker images
-docker container ls
-docker logs <container_name>
-docker container rm <container_name
-docker image rm <image_name
+- docker images
+- docker container ls
+- docker logs <container_name>
+- docker container rm <container_name
+- docker image rm <image_name
